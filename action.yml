@@ -1,6 +1,5 @@
 name: 'GitHub Actions Demo'
 description: 'Demo Action omegalul'
-inputs:
 outputs:
   random-number:
     description: "Random number"
