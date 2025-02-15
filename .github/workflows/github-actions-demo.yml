@@ -18,7 +18,7 @@ jobs:
       - run: echo "🍏 This job's status is ${{ job.status }}."
       - name: Hello world action step
         id: hello
-        uses: Hypasist/dockerfile-demo@v1
+        uses: Hypasist/dockerfile-demo@v2
         with:
           who-to-greet: 'Shelob, Child of Ungoliant'
       # Use the output from the `hello` step
